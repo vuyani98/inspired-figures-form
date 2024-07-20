@@ -1,0 +1,59 @@
+<div class="container">
+  <div>
+    <h1>Inspired Business Network</h1>
+    <h2>Application Form</h2>
+    <div>
+      <form (submit)="showAlert()">
+        <div>
+          <label for="name">Name of Entity:</label>
+          <input type="text" id="name" required="true">
+        </div>
+
+        <div>
+          <label for="lineOfBusiness">Line of Business:</label>
+          <input type="text" id="lineOfBusiness" name="companyNumber" required="true">
+        </div>
+
+        <div>
+          <label for="companyNumber">Company No.:</label>
+          <input type="text" id="companyNumber" name="companyNumber" required="true">
+        </div>
+        <div>
+          <label for="dateOfReg">Date of Reg.:</label>
+          <input type="date" id="dateOfReg" name="dateOfReg" required="true">
+        </div>
+
+        <div>
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required="true">
+        </div>
+
+        <div>
+          <label for="phone">Phone No.:</label>
+          <input type="tel" id="phone" name="phone" required="true">
+        </div>
+
+        <div>
+          <label for="website">Website:</label>
+          <input type="text" id="website" name="website" required="true">
+        </div>
+
+        <div>
+          <label for="name">References:</label> <br>
+          <ol>
+            <li> <label for="ref1">Ref</label> <input type="text" id="ref1" name="ref1"> <label for="ref1phone">Phone</label> <input type="tel" id="ref1phone" name="ref1phone"></li>
+            <li> <label for="ref2">Ref</label> <input type="text" id="ref2" name="ref2"> <label for="ref2phone">Phone</label> <input type="tel" id="ref2phone" name="ref2phone"></li>
+            <li> <label for="ref3">Ref</label> <input type="text" id="ref3" name="ref3"> <label for="ref3phone">Phone</label> <input type="tel" id="ref3phone" name="ref3phone"></li>
+            <li> <label for="ref4">Ref</label> <input type="text" id="ref4" name="ref4"> <label for="ref4phone">Phone</label> <input type="tel" id="ref4phone" name="ref4phone"></li>
+            <li> <label for="ref5">Ref</label> <input type="text" id="ref5" name="ref5"> <label for="ref5phone">Phone</label> <input type="tel" id="ref5phone" name="ref5phone"></li>
+          </ol>
+        </div>
+
+        <div>
+          <button type="submit"> Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>

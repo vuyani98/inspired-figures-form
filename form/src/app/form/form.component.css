@@ -1,0 +1,29 @@
+input{
+  border: none;
+  background-color: rgb(245 245 245);
+  padding: 5px;
+  margin: 5px;
+  width: 70%;
+}
+
+.container div{
+  margin-block: 10px;
+}
+
+ol input{
+  width: auto !important;
+}
+li {
+  display: flex;
+  flex-wrap: nowrap;
+}
+@media (max-width : 744px){
+  ol li, ol input{
+    width: 70% !important;
+  }
+  li {
+    flex-wrap: wrap;
+  }
+}
+
+

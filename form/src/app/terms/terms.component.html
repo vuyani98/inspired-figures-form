@@ -1,0 +1,24 @@
+<div class="container">
+  <div>
+    <h1 style="text-align: center;">Inspired Business Network</h1>
+    <h2>Terms and Conditions</h2>
+    <div>
+      <ol>
+        <li>our admission into the network is subjective to meeting the requirements.</li>
+        <li>This registration is renewed at the beginning of each year.</li>
+        <li>You will be required to perform to the best of your ability on all tasks and to meet deadlines.</li>
+        <li>As much as you will be allocated job(s) you will be in turn encouraged but not obligated to subscribe to the network should you require a service thereby ensuring livelihood of the members.</li>
+        <li>Your subscription entitles you to a basic business advice and appointment or reference to upcoming jobs or services requiring your expertise</li>
+        <li>Over the course of time you shall be invited to seminars and advisory meetings to ensure business growth either free or booked depending on the host or invited guest and agenda.</li>
+        <li>You shall entitled to voice your opinion at our offices or by calling.</li>
+        <li>Failure to renew your registration will be assumed as a disinterest resulting in elimination from the network.</li>
+        <li>Failure to deliver on allocated job or task within the given time frame will result in expulsion from the network.</li>
+        <li>Failure to meet the deadline and substandard delivery will mean you shall be replaced and any cost incurred will be at your expense.</li>
+        <li>Please attach a copy of the Certificate of Incorporation</li>
+      </ol>
+    </div>
+    <div>I accept the above terms and conditions<input style="margin-inline: 10px;" type="checkbox" name="check" id="check" [(value)]="checked" (click)="check()"></div>
+    <button routerLink="forms" [disabled]="!checked">Next</button>
+  </div>
+
+</div>
